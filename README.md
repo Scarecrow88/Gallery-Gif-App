@@ -3,10 +3,11 @@
 - Vista de una pagina principal de ina galeria
 - Carga de recursos de imagenes Gif
 ## Tecnologías utilizadas
-- **Frontend:** JavaScript, HTML, CSS
+- **Frontend:** React.js, JavaScript, HTML, CSS
 - **Conexion con recursos:** Fetch
 ## Arquitecturas
 - Monolitica
+- Modular
 > Vista 1 de la pagina <br>
 ![Logo](assets/Capture1.png) <br>
 > Vista 2 de la pagina <br>

@@ -1,60 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery Gif App</title>
-    <link rel="stylesheet" href="./css/theme.css">
-    <link rel="stylesheet" href="./css/navResponsiveContent.css">
-    <link rel="stylesheet" href="./css/articleGalleryContent.css">
-    <link rel="stylesheet" href="./css/figureGalleryContent.css">
-    <link rel="stylesheet" href="./css/footerContent.css">
-</head>
-<body>
-    <header class="navheader">
-        <nav class="navbox">
-            <a href="#" class="navlogo" aria-label="openmenu">Gallery Gif App</a>
-            <button class="navtoggle">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-                </svg>
-            </button>
-            <ul class="navmenu">
-                <li class="navmenuitem">
-                    <a href="#">Home</a>
-                </li>
-                <li class="navmenuitem">
-                    <a href="#">Sign in</a>
-                </li>
-                <li class="navmenuitem">
-                    <a href="#">Sign up</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section class="articlegalerybox">
-        <div class="articlegalerybannerbox">
-            <h1>Bienvenido a Nuestra Galería</h1>
-            <p>
-                Explora una colección de GIFs divertidos, creativos y llenos de movimiento. Encuentra 
-                reacciones, memes, efectos y animaciones increíbles para cada ocasión..
-            </p>
-            <a href="#galeria">Ver mas fotos...</a>
-        </div>
-    </section>
-    <section class="figuregallerybox">
-        <div id="gallerycontainer">
-        </div>
-    </section>
-    <footer class="footerleads">
-        <h2>Contactanos</h2>
-        <div class="footerform">
-            <input type="email" placeholder="Tu correo">
-            <button>Enviar</button>
-        </div>
-        <p>© 2026 Todos los derechos reservados</p>
-    </footer>
-    <script src="./js/app.js"></script>
-    <script src="./js/barMenu.js"></script>
-</body>
+  </head>
+  
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
