@@ -1,21 +1,18 @@
 function loadGallery (containerId) {
     const container = document.getElementById (containerId);
-    const xhr = new XMLHttpRequest ();
-    xhr.open ('GET', './js/images.json', true);
-    xhr.responseType = 'json';
-    xhr.onload = function () {
-        if (xhr.status === 200) {
-            const images = xhr.response;
+    fetch ('./js/images.json')
+        .then (response => {
+            if (!response.ok) {
+                throw new Error(`Error HTTP: ${response.status}`);
+            }
+            return response.json ();
+        })
+        .then (images => {
             renderImages (images, container);
-        } 
-        else {
-            console.error ('Error al cargar images.json:', xhr.status);
-        }
-    };
-    xhr.onerror = function () {
-        console.error ('Error de red al intentar cargar images.json');
-    };
-    xhr.send ();
+        })
+        .catch (error => {
+            console.error ('Error al cargar images.json:', error);
+        });
 }
 function renderImages (images, container) {
     container.innerHTML = ''; // Limpia antes de renderizar
@@ -35,7 +32,6 @@ function renderImages (images, container) {
         container.appendChild (figure);
     });
 }
-// Ejecutar cuando el DOM esté listo
 document.addEventListener ('DOMContentLoaded', function () {
     loadGallery ('gallerycontainer');
 });

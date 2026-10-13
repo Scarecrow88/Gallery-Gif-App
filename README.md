@@ -4,7 +4,7 @@
 - Carga de recursos de imagenes Gif
 ## Tecnologías utilizadas
 - **Frontend:** JavaScript, HTML, CSS
-- **Conexion con recursos:** XHR
+- **Conexion con recursos:** Fetch
 ## Arquitecturas
 - Monolitica
 > Vista 1 de la pagina <br>
