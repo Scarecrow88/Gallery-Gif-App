@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Oswald Regular';
+    src: url('../font/Oswald-Regular.ttf');
+}
+body {
+    font-family: 'Oswald Regular';
+    background-color: var(--first-color);
+}
+.bodybox::-webkit-scrollbar {
+    width: 10px;
+}
+.bodybox::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track);
+    border-radius: 5px;
+}
+.bodybox::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+    border-radius: 5px;
+}
+.navheader {
+    height: 50px;
+    background-color: var(--first-color);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-bottom: 1px solid var(--fifth-color);
+}
+.navbox {
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.navlogo, .navmenuitem a {
+    color: var(--third-color);
+    text-decoration: none;
+}
+.navmenu {
+    margin-right: 40px;
+    display: flex;
+    list-style: none;
+}
+.navmenuitem {
+    width: max-content;
+    margin: 0 10px;
+    font-size: 18px;
+    line-height: 50px;
+}
+.navmenuitem a {
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: var(--fourth-color);
+    background-color: var(--first-color);
+}
+.navmenuitem a:hover {
+    background-color: var(--second-color);
+    transition: 0.5s;
+}
+.navlogo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 50px;
+}
+.navtoggle {
+    height: 60px;
+    padding: 10px 20px;
+    line-height: 60px;
+    background: none;
+    border: none;
+    display: none;
+}
+.navtoggle svg {
+    width: 30px;
+    height: 30px;
+    fill: var(--third-color);
+}
+@media screen and (max-width: 1093px) {
+    .navbox {
+        margin-left: 10px;
+    }
+    .navlogo {
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 966px) {
+    .navbox { 
+        margin-left: 10px;
+    }
+    .navlogo {
+        font-size: 23px;
+        padding: 15px 24px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        margin-top: 60px;
+    }
+    .navheader {
+        height: 60px;
+    }
+    .navlogo {
+        height: 60px;
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 60px;
+    }
+    .navmenu {
+        width: 100%;
+        padding: 20px 0;
+        align-items: center;
+        margin-right: 20px;
+        flex-direction: column;
+        background-color: var(--second-color);
+        position: fixed;
+        left: 0;
+        top: 60px;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+    }
+    .navmenuitem {
+        height: 60px;
+        line-height: 60px;
+    }
+    .navmenuitem a {
+        background-color: transparent;
+    }
+    .navmenuitem a:hover {
+        background: none;
+        color: var(--third-color);
+    }
+    .navtoggle {
+        display: block;
+    }
+    .navmenuvisible {
+        left: 0;
+    }
+    .navtoggle:focus:not(:focus-visible) {
+        outline: none;
+    }
+}

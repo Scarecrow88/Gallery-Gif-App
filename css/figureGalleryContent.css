@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.figuregallerybox {
+    padding-top: 90px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 1rem auto;
+    column-count: 4;
+}
+.figureitem {
+    width: 100%;
+    border-radius: 20px;
+}
+.figureitem img {
+    width: 100%;
+}
+@media screen and (max-width: 431px) {
+    .figuregallerybox {
+        column-count: 2;
+    }
+}

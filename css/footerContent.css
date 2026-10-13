@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footerleads {
+    background: var(--second-color);
+    color: var(--fifth-color);
+    text-align: center;
+    padding: 50px;
+}
+.footerform {
+    margin-top: 20px;
+}
+.footerform input {
+    padding: 10px;
+    width: 220px;
+    border: none;
+}
+.footerform button {
+    padding: 10px 20px;
+    background: var(--third-color);
+    color: var(--fifth-color);
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+.footerform button:hover {
+    background: var(--fourth-color);
+    color: var(--text-color);
+    transition: 0.5s;
+}

@@ -1,0 +1,287 @@
+[
+    {
+        "src": "./fetch/img1.gif",
+        "alt": "Descripción imagen 1",
+        "caption": "Figure 1"
+    },
+    {
+        "src": "./fetch/img2.gif",
+        "alt": "Descripción imagen 2",
+        "caption": "Figure 2"
+    },
+    {
+        "src": "./fetch/img3.gif",
+        "alt": "Descripción imagen 3",
+        "caption": "Figure 3"
+    },
+    {
+        "src": "./fetch/img4.gif",
+        "alt": "Descripción imagen 4",
+        "caption": "Figure 4"
+    },
+    {
+        "src": "./fetch/img5.gif",
+        "alt": "Descripción imagen 5",
+        "caption": "Figure 5"
+    },
+    {
+        "src": "./fetch/img6.gif",
+        "alt": "Descripción imagen 6",
+        "caption": "Figure 6"
+    },
+    {
+        "src": "./fetch/img7.gif",
+        "alt": "Descripción imagen 7",
+        "caption": "Figure 7"
+    },
+    {
+        "src": "./fetch/img8.gif",
+        "alt": "Descripción imagen 8",
+        "caption": "Figure 8"
+    },
+    {
+        "src": "./fetch/img9.gif",
+        "alt": "Descripción imagen 9",
+        "caption": "Figure 9"
+    },
+    {
+        "src": "./fetch/img10.gif",
+        "alt": "Descripción imagen 10",
+        "caption": "Figure 10"
+    },
+    {
+        "src": "./fetch/img11.gif",
+        "alt": "Descripción imagen 11",
+        "caption": "Figure 11"
+    },
+    {
+        "src": "./fetch/img12.gif",
+        "alt": "Descripción imagen 12",
+        "caption": "Figure 12"
+    },
+    {
+        "src": "./fetch/img13.gif",
+        "alt": "Descripción imagen 13",
+        "caption": "Figure 13"
+    },
+    {
+        "src": "./fetch/img14.gif",
+        "alt": "Descripción imagen 14",
+        "caption": "Figure 14"
+    },
+    {
+        "src": "./fetch/img15.gif",
+        "alt": "Descripción imagen 15",
+        "caption": "Figure 15"
+    },
+    {
+        "src": "./fetch/img16.gif",
+        "alt": "Descripción imagen 16",
+        "caption": "Figure 16"
+    },
+    {
+        "src": "./fetch/img17.gif",
+        "alt": "Descripción imagen 17",
+        "caption": "Figure 17"
+    },
+    {
+        "src": "./fetch/img18.gif",
+        "alt": "Descripción imagen 18",
+        "caption": "Figure 18"
+    },
+    {
+        "src": "./fetch/img19.gif",
+        "alt": "Descripción imagen 19",
+        "caption": "Figure 19"
+    },
+    {
+        "src": "./fetch/img20.gif",
+        "alt": "Descripción imagen 20",
+        "caption": "Figure 20"
+    },
+    {
+        "src": "./fetch/img21.gif",
+        "alt": "Descripción imagen 21",
+        "caption": "Figure 21"
+    },
+    {
+        "src": "./fetch/img22.gif",
+        "alt": "Descripción imagen 22",
+        "caption": "Figure 22"
+    },
+    {
+        "src": "./fetch/img23.gif",
+        "alt": "Descripción imagen 23",
+        "caption": "Figure 23"
+    },
+    {
+        "src": "./fetch/img24.gif",
+        "alt": "Descripción imagen 24",
+        "caption": "Figure 24"
+    },
+    {
+        "src": "./fetch/img25.gif",
+        "alt": "Descripción imagen 25",
+        "caption": "Figure 25"
+    },
+    {
+        "src": "./fetch/img26.gif",
+        "alt": "Descripción imagen 26",
+        "caption": "Figure 26"
+    },
+    {
+        "src": "./fetch/img27.gif",
+        "alt": "Descripción imagen 27",
+        "caption": "Figure 27"
+    },
+    {
+        "src": "./fetch/img28.gif",
+        "alt": "Descripción imagen 28",
+        "caption": "Figure 28"
+    },
+    {
+        "src": "./fetch/img29.gif",
+        "alt": "Descripción imagen 29",
+        "caption": "Figure 29"
+    },
+    {
+        "src": "./fetch/img30.gif",
+        "alt": "Descripción imagen 30",
+        "caption": "Figure 30"
+    },
+    {
+        "src": "./fetch/img31.gif",
+        "alt": "Descripción imagen 31",
+        "caption": "Figure 31"
+    },
+    {
+        "src": "./fetch/img32.gif",
+        "alt": "Descripción imagen 32",
+        "caption": "Figure 32"
+    },
+    {
+        "src": "./fetch/img33.gif",
+        "alt": "Descripción imagen 33",
+        "caption": "Figure 33"
+    },
+    {
+        "src": "./fetch/img34.gif",
+        "alt": "Descripción imagen 34",
+        "caption": "Figure 34"
+    },
+    {
+        "src": "./fetch/img35.gif",
+        "alt": "Descripción imagen 35",
+        "caption": "Figure 35"
+    },
+    {
+        "src": "./fetch/img36.gif",
+        "alt": "Descripción imagen 36",
+        "caption": "Figure 36"
+    },
+    {
+        "src": "./fetch/img37.gif",
+        "alt": "Descripción imagen 37",
+        "caption": "Figure 37"
+    },
+    {
+        "src": "./fetch/img38.gif",
+        "alt": "Descripción imagen 38",
+        "caption": "Figure 38"
+    },
+    {
+        "src": "./fetch/img39.gif",
+        "alt": "Descripción imagen 39",
+        "caption": "Figure 39"
+    },
+    {
+        "src": "./fetch/img40.gif",
+        "alt": "Descripción imagen 40",
+        "caption": "Figure 40"
+    },
+    {
+        "src": "./fetch/img41.gif",
+        "alt": "Descripción imagen 41",
+        "caption": "Figure 41"
+    },
+    {
+        "src": "./fetch/img42.gif",
+        "alt": "Descripción imagen 42",
+        "caption": "Figure 42"
+    },
+    {
+        "src": "./fetch/img43.gif",
+        "alt": "Descripción imagen 43",
+        "caption": "Figure 43"
+    },
+    {
+        "src": "./fetch/img44.gif",
+        "alt": "Descripción imagen 44",
+        "caption": "Figure 44"
+    },
+    {
+        "src": "./fetch/img45.gif",
+        "alt": "Descripción imagen 45",
+        "caption": "Figure 45"
+    },
+    {
+        "src": "./fetch/img46.gif",
+        "alt": "Descripción imagen 46",
+        "caption": "Figure 46"
+    },
+    {
+        "src": "./fetch/img47.gif",
+        "alt": "Descripción imagen 47",
+        "caption": "Figure 47"
+    },
+    {
+        "src": "./fetch/img48.gif",
+        "alt": "Descripción imagen 48",
+        "caption": "Figure 48"
+    },
+    {
+        "src": "./fetch/img49.gif",
+        "alt": "Descripción imagen 49",
+        "caption": "Figure 49"
+    },
+    {
+        "src": "./fetch/img50.gif",
+        "alt": "Descripción imagen 50",
+        "caption": "Figure 50"
+    },
+    {
+        "src": "./fetch/img51.gif",
+        "alt": "Descripción imagen 51",
+        "caption": "Figure 51"
+    },
+    {
+        "src": "./fetch/img52.gif",
+        "alt": "Descripción imagen 52",
+        "caption": "Figure 52"
+    },
+    {
+        "src": "./fetch/img53.gif",
+        "alt": "Descripción imagen 53",
+        "caption": "Figure 53"
+    },
+    {
+        "src": "./fetch/img54.gif",
+        "alt": "Descripción imagen 54",
+        "caption": "Figure 54"
+    },
+    {
+        "src": "./fetch/img55.gif",
+        "alt": "Descripción imagen 55",
+        "caption": "Figure 55"
+    },
+    {
+        "src": "./fetch/img56.gif",
+        "alt": "Descripción imagen 56",
+        "caption": "Figure 56"
+    },
+    {
+        "src": "./fetch/img57.gif",
+        "alt": "Descripción imagen 57",
+        "caption": "Figure 57"
+    }
+]

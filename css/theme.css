@@ -1,0 +1,11 @@
+:root {
+    --first-color: #000000;
+    --second-color: #14213D;
+    --third-color: #FCA311;
+    --fourth-color: #E5E5E5;
+    --fifth-color: #FFFFFF;
+    --text-color: #000000;
+    --color-text-shadow: lightslategray;
+    --scrollbar-track: #14213D;
+    --scrollbar-thumb: #FCA311;
+}
